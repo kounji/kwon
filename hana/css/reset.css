@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/* common */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {margin:0; padding:0; border:0; vertical-align:baseline;}
+textarea, input, select {margin: 0; padding: 0;}
+textarea{resize:none;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {display:block;}
+
+* {margin:0; padding:0;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content:''; content:none;}
+
+table {border-collapse:collapse; border-spacing:0;}
+a {text-decoration:none; color:inherit;}
+caption, legend {visibility:hidden; height:0px; width:0px; line-height:0; font-size:0px;}
+hr {display:none;}
+i{font-style:normal}
+
+h1,h2,h3,h4,h5,h6 {color:inherit; font-weight: normal;}
+
+* {-webkit-text-size-adjust:none;}	/* 아이폰 가로모드시 글씨 커지는 문제 */
+
+/* 아이폰 input 박스선 없애기 */
+input[type="text"],input[type="password"],input[type="email"],input[type="search"],input[type="image"],input[type="tel"],input[type="number"], textarea{-webkit-appearance:none;-webkit-border-radius:0;}
+
+button{-webkit-appearance: button;cursor: pointer; overflow: visible; background-color: transparent; font-family:'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;}
+img, fieldset {vertical-align: top;}
+
+strong {font-weight: normal}
+em {font-style:normal;}
+sub, sup{line-height: 0;}
+
+/* test */
+.t {border:1px solid red !important;}
+
+/* For modern browsers */
+.clfix:before,.clfix:after {content:""; display:table}
+.clfix:after {clear:both}
+* html .clfix {height:1%} /* Hides from IE-mac */
+.clfix {zoom:1}
+
+input, textarea {line-height: 1.2; /* 입력폼에서 춤추지 않는 최소 줄간 1.2 */ vertical-align: middle;/*가이드에 맞는걸로 padding 및 크기 설정*/}
+
+
+
+
+
+
+
+
+
+
